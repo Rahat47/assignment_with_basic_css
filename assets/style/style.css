@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: dimgray;
+}
+
+
+.bg-light{
+    background: #e3e3e6;
+}
+
+
+.button {
+    background-image: linear-gradient(90deg, #F46060, #FF8063);
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ta-c{
+    text-align: center;
+}
+
+.heading-title{
+    margin: 0;
+    color: #363958;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.heading-subtitle{
+    padding-bottom: 30px;
+    margin: 0;
+
+}
+
+.text--color{
+    color: #F46060;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+
+.section{
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.w-50{
+    width: 50%;
+    float: left;
+}
+
+
+
+.navbar{
+    text-align: right;
+    padding: 20px 0;
+}
+
+.navbar__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar__item{
+    display: inline-block;
+}
+
+.navbar__link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 600;
+    color: #6C6C6C;
+}
+
+.intro{
+    padding-top: 40px;
+}
+
+.intro__title{
+    margin: 0;
+    color: #363958;
+    font-size: 4rem;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.intro__desc{
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.text-color{
+    color: #F46060;
+    display: block;
+}
+
+.intro__img img{
+    width: 80%;
+}
+.about{
+    padding-bottom: 100px;
+}
+.about__data{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.about__img img{
+    width: 70%;
+}
+
+.work__box {
+    width: 25.33%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    box-shadow:0 7px 15px rgba(0,0,0,.15);
+}
+.work__title {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 22px;
+    color: #363958;
+}
+
+.work__desc{
+    margin: 0;
+}
+
+.work__img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.blog{
+    padding: 100px 0;
+}
+
+.blog__box{
+    width: 25.33%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2%;
+    float: left;
+    box-shadow:0 7px 15px rgba(0,0,0,.15);
+    height: 600px;
+    
+}
+
+.blog__box img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.blog__title {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.125rem;
+    color: #363958;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.blog__date{
+    letter-spacing: 2px;
+    color: #777777;
+    padding: 20px 0;
+}
+
+
+.blog__desc{
+    margin: 0;
+    padding-bottom: 20px;
+    
+}
+
+.button.read-more {
+    padding: 5px 10px;
+}
+
+
+.inquiry{
+    padding-top: 100px;
+}
+
+.inquiry__box{
+    width: 75%;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url('../../Group_33094_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inquiry__jumbo-text{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.inquiry__button {
+    text-align: right;
+    margin-top: 27px;
+}
+
+.footer{
+    text-align: center;
+    padding: 100px 0;
+    padding-bottom: 0;
+}
+
+.footer__title{
+    color: #696871;
+    font-size: 1.5rem;
+    padding-top: 0;
+    padding: 0px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer__email{
+    font-size: 2.25rem;
+    color: #363958;
+    padding: 20px 0;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer__social--list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__social--list-item {
+    display: inline-block;
+}
+
+.footer__social--link {
+    display: block;
+    padding: 10px;
+}
+
+.footer__social--link img {
+    width: 50px;
+    height: 50px;
+}
